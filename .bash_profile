@@ -1,6 +1,10 @@
 export CLICOLOR=1
-export TERM=xterm-256color
+export EDITOR='vim'
 export CDPATH=".:~/gt"
+export PATH="$PATH:~/bin" # Add RVM to PATH for scripting
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:~/"
+#export PYTHONHOME="~/"
+export PYTHONSTARTUP=~/.pythonrc
 export PS1="\w \u$ "
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
