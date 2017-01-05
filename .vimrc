@@ -1,11 +1,12 @@
 imap jj <Esc>
 
-syntax on
+syntax enable
 " solarized options
 set background=dark
 "let g:solarized_visibility = "high"
 "let g:solarized_contrast = "high"
-let g:solarized_termtrans = 1
+"let g:solarized_termtrans = 1
+let g:solarized_termcolors=256
 set term=xterm-256color
 colorscheme solarized
 
