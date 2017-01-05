@@ -1,5 +1,5 @@
 #!/bin/bash
 
-ln -s .vimrc ~/.vimrc
-ln -s .bash_profile ~/.bash_profile
-ln -s .bashrc ~/.bashrc
+ln -s $PWD/.vimrc ~/.vimrc
+ln -s $PWD/.bash_profile ~/.bash_profile
+ln -s $PWD/.bashrc ~/.bashrc
